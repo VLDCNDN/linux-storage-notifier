@@ -26,3 +26,7 @@ DEFAULT VALUE:
 max 80% 
 - meaning will only email if the storage is 80% used.
 - you can change it in the code find the 80 then change it `if [ $used -ge 80 ]; then`
+
+email
+- find `test@test.com` then change it your email
+- for multiple email `test@test.com, test2@test.com`
